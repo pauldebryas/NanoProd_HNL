@@ -1,0 +1,62 @@
+{
+  "name": "DYJetsToLL_M-50",
+  "inputDataset": "/DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM",
+  "recoveryIndex": 0,
+  "taskIds": {},
+  "lastJobStatusUpdate": -1.0,
+  "cmsswPython": "RunKit/nanoProdWrapper.py",
+  "params": {
+    "customise": "NanoProd/NanoProd/customize.customize",
+    "skimCfg": "skim_HNL.yaml",
+    "skimSetup": "skim",
+    "skimSetupFailed": "skim_failed",
+    "maxEvents": 100,
+    "era": "Run2_2018",
+    "sampleType": "mc",
+    "storeFailed": true,
+    "maxFiles": 1,
+    "copyInputsToLocal": false,
+    "customiseCmds": "process.Timing = cms.Service('Timing', summaryOnly=cms.untracked.bool(True)); process.SimpleMemoryCheck = cms.Service('SimpleMemoryCheck', jobReportOutputOnly=cms.untracked.bool(True)); process.CPU = cms.Service('CPU')"
+  },
+  "splitting": "FileBased",
+  "unitsPerJob": 8,
+  "scriptExe": "RunKit/crabJob.sh",
+  "outputFiles": [
+    "nano.root"
+  ],
+  "filesToTransfer": [
+    "RunKit/crabJob.sh",
+    "RunKit/crabJob.py",
+    "RunKit/crabJob_nanoProd.py",
+    "RunKit/skim_tree.py",
+    "RunKit/sh_tools.py",
+    "NanoProd/config/skim_HNL.yaml",
+    "NanoProd/python/customize.py"
+  ],
+  "site": "T3_CH_PSI",
+  "crabOutput": "/work/pdebryas/tmp",
+  "localCrabOutput": "/eos/user/p/pdebryas/HNL/NanoProd2018_prod",
+  "lumiMask": "",
+  "maxMemory": 2500,
+  "numCores": 1,
+  "inputDBS": "global",
+  "allowNonValid": false,
+  "vomsGroup": "",
+  "vomsRole": "",
+  "blacklist": [],
+  "whitelist": [],
+  "whitelistFinalRecovery": [
+    "T1_DE_KIT",
+    "T2_CH_CERN",
+    "T2_DE_DESY",
+    "T2_IT_Legnaro",
+    "T3_CH_PSI"
+  ],
+  "dryrun": true,
+  "finalOutput": "/eos/user/p/pdebryas/HNL/NanoProd2018",
+  "maxRecoveryCount": 3,
+  "targetOutputFileSize": 2048,
+  "ignoreFiles": [],
+  "ignoreLocality": false,
+  "crabType": ""
+}

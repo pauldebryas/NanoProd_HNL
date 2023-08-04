@@ -22,7 +22,7 @@ Production should be run on the server that have the crab stageout area mounted 
 
 1. Check that all datasets are present and valid (replace path to `yaml`s accordingly):
    ```sh
-   cat NanoProd/crab/ERA/*.yaml | grep -v -E '^( +| *#)' | grep -E ' /' | sed -E 's/.*: (.*)/\1/' | xargs python RunKit/checkDatasetExistance.py
+   cat NanoProd/crab/Run2_2018/*.yaml | grep -v -E '^( +| *#)' | grep -E ' /' | sed -E 's/.*: (.*)/\1/' | xargs python RunKit/checkDatasetExistance.py
    ```
    If all ok, there should be no output.
 1. Modify output and other site-specific settings in `NanoProd/crab/overseer_cfg.yaml`. In particular:
