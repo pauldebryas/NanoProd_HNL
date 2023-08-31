@@ -1,7 +1,7 @@
 cmsswPython: RunKit/nanoProdWrapper.py
 params:
   customise: NanoProd/NanoProd/customize.customize
-  skimCfg: skim_HNL.yaml
+  skimCfg: skim.yaml
   skimSetup: skim
   skimSetupFailed: skim_failed
   maxEvents: -1
@@ -16,12 +16,12 @@ filesToTransfer:
   - RunKit/crabJob_nanoProd.py
   - RunKit/skim_tree.py
   - RunKit/sh_tools.py
-  - NanoProd/config/skim_HNL.yaml
+  - NanoProd/config/skim.yaml
   - NanoProd/python/customize.py
-site: T3_CH_PSI
-crabOutput: /work/pdebryas/tmp
-finalOutput: /eos/user/p/pdebryas/HNL/NanoProd2018
-localCrabOutput: /eos/user/p/pdebryas/HNL/NanoProd2018_prod
+site: T3_CH_CERNBOX
+crabOutput: /store/user/pdebryas/my_prod
+localCrabOutput: /eos/home-p/pdebryas/my_prod
+finalOutput: /eos/home-p/pdebryas/HNL/NanoProd2018/
 maxMemory: 2500
 numCores: 1
 inputDBS: global
