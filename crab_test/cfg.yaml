@@ -21,7 +21,7 @@ filesToTransfer:
 site: T3_CH_CERNBOX
 crabOutput: /store/user/pdebryas/my_prod
 localCrabOutput: /eos/home-p/pdebryas/my_prod
-finalOutput: /eos/home-p/pdebryas/HNL/Run2_2016_HIPM_HNL/
+finalOutput: /eos/home-p/pdebryas/HNL/Run2_2016_HIPM/
 maxMemory: 2500
 numCores: 1
 inputDBS: global

@@ -7,8 +7,16 @@ config:
 DYJetsToLL_M-50: /DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM
 
 DYJetsToLL_0J: /DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM
-DYJetsToLL_1J: /DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM
-DYJetsToLL_2J: /DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM
+DYJetsToLL_1J: 
+  inputDataset: /DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM
+  ignoreFiles:
+    - /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/223D68EB-8E7A-1D43-AD21-1CCD38075413.root
+    - /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/80000/CECA3C62-540B-1B43-BD66-A7787DC65717.root
+DYJetsToLL_2J: 
+  inputDataset: /DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM
+  ignoreFiles:
+    - /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/F5067DBB-CAB0-8040-942B-CFECA8F70D22.root
+    - /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/131B735B-1BB5-7D43-A159-3F021DDD1A6F.root
 
 DYJetsToLL_LHEFilterPtZ-0To50: /DYJetsToLL_LHEFilterPtZ-0To50_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM
 DYJetsToLL_LHEFilterPtZ-50To100: /DYJetsToLL_LHEFilterPtZ-50To100_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM

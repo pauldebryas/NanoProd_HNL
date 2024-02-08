@@ -45,8 +45,28 @@ def customizeTaus(process):
   process.finalTaus.cut = f"pt > 18 && ( {deepTauCut} || {pnetCut} )"
   return process
 
+def FixHNL2016HIPM(process):
+  process.lowPtElectronTask = cms.Task()
+  process.lowPtElectronTablesTask = cms.Task()
+  process.lowPtElectronMCTask = cms.Task()
+  process.boostedTauTask = cms.Task()
+  process.boostedTauTablesTask = cms.Task()
+  process.boostedTauMCTask = cms.Task()
+  process.linkedObjects.lowPtElectrons = "finalElectrons"
+  process.linkedObjects.boostedTaus = "finalTaus"
+  del process.jetTable.variables.hfadjacentEtaStripsSize
+  del process.jetTable.variables.hfcentralEtaStripSize
+  del process.jetTable.variables.hfsigmaEtaEta
+  del process.jetTable.variables.hfsigmaPhiPhi
+  return process
+
 def customize(process):
+  isHNL2016HIPM = True
+
   process.MessageLogger.cerr.FwkReport.reportEvery = 100
   process = customizeGenParticles(process)
   process = customizeTaus(process)
+  if isHNL2016HIPM:
+    process = FixHNL2016HIPM(process)
+
   return process

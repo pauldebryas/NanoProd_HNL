@@ -1,0 +1,1663 @@
+DEBUG 2023-09-01 07:51:58.517 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-01 07:51:58.517 UTC: 	 Running on: Linux lxplus805.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-01 07:51:58.517 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-01 07:51:58.518 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-01 07:51:58.518 UTC: 	 Error: .crabOverseer/TTToHadronic/crab_TTToHadronic_recovery_2 is not a valid CRAB project directory.
+ERROR 2023-09-01 07:51:58.518 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 642, in validateOptions
+    raise ConfigurationException(msg)
+CRABClient.ClientExceptions.ConfigurationException: [91mError[0m: .crabOverseer/TTToHadronic/crab_TTToHadronic_recovery_2 is not a valid CRAB project directory.
+INFO 2023-09-01 07:51:58.530 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-12 08:38:25.295 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:38:25.296 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:38:25.296 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:38:25.296 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-12 08:38:25.299 UTC: 	 Error: pdebryas_crab_SingleElectron_Run2017B_recovery_2 is not a valid CRAB project directory.
+ERROR 2023-09-12 08:38:25.299 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 642, in validateOptions
+    raise ConfigurationException(msg)
+CRABClient.ClientExceptions.ConfigurationException: [91mError[0m: pdebryas_crab_SingleElectron_Run2017B_recovery_2 is not a valid CRAB project directory.
+INFO 2023-09-12 08:38:25.376 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-12 08:39:07.775 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:39:07.775 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:39:07.775 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:39:07.775 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-12 08:39:07.776 UTC: 	 Error: NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+ERROR 2023-09-12 08:39:07.776 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 642, in validateOptions
+    raise ConfigurationException(msg)
+CRABClient.ClientExceptions.ConfigurationException: [91mError[0m: NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+INFO 2023-09-12 08:39:07.777 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-12 08:39:31.033 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:39:31.034 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:39:31.034 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:39:31.034 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-12 08:39:31.034 UTC: 	 Error: /NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+ERROR 2023-09-12 08:39:31.035 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 642, in validateOptions
+    raise ConfigurationException(msg)
+CRABClient.ClientExceptions.ConfigurationException: [91mError[0m: /NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+INFO 2023-09-12 08:39:31.038 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-12 08:39:41.991 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:39:41.992 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:39:41.992 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:39:41.992 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+DEBUG 2023-09-12 08:40:12.775 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:40:12.775 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:40:12.775 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:40:12.775 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-12 08:40:12.776 UTC: 	 Error: /NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+ERROR 2023-09-12 08:40:12.776 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 642, in validateOptions
+    raise ConfigurationException(msg)
+CRABClient.ClientExceptions.ConfigurationException: [91mError[0m: /NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+INFO 2023-09-12 08:40:12.792 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-12 08:40:39.499 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:40:39.499 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:40:39.499 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:40:39.499 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-12 08:40:39.502 UTC: 	 Error: /.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+ERROR 2023-09-12 08:40:39.502 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 642, in validateOptions
+    raise ConfigurationException(msg)
+CRABClient.ClientExceptions.ConfigurationException: [91mError[0m: /.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+INFO 2023-09-12 08:40:39.503 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-12 08:40:49.245 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:40:49.245 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:40:49.245 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:40:49.245 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-12 08:40:49.251 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B
+ERROR 2023-09-12 08:40:49.251 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 508, in loadLocalCache
+    raise ex
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 502, in loadLocalCache
+    self.cachedinfo, self.logfile = loadCache(self.requestarea, self.logger)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/ClientUtilities.py", line 440, in loadCache
+    raise CachefileNotFoundException(msg)
+CRABClient.ClientExceptions.CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/.crabOverseer/SingleElectron_Run2017B
+INFO 2023-09-12 08:40:49.253 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-12 08:40:58.154 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-12 08:40:58.154 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-12 08:40:58.154 UTC: 	 Executing command: 'status'
+DEBUG 2023-09-12 08:40:58.154 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+ERROR 2023-09-12 08:40:58.155 UTC: 	 Error: /.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+ERROR 2023-09-12 08:40:58.155 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/bin/crab.py", line 144, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/status.py", line 48, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 275, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.230612.00/lib/CRABClient/Commands/SubCommand.py", line 642, in validateOptions
+    raise ConfigurationException(msg)
+CRABClient.ClientExceptions.ConfigurationException: [91mError[0m: /.crabOverseer/SingleElectron_Run2017B is not a valid CRAB project directory.
+INFO 2023-09-12 08:40:58.161 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2023-09-16 16:11:53.728 UTC: 	 CRAB Client version: v3.230612
+DEBUG 2023-09-16 16:11:53.728 UTC: 	 Running on: Linux lxplus801.cern.ch 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.8 (Ootpa)
+DEBUG 2023-09-16 16:11:53.728 UTC: 	 Executing command: 'tasks'
+DEBUG 2023-09-16 16:11:53.728 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+DEBUG 2023-09-16 16:11:53.729 UTC: 	 Checking credentials
+DEBUG 2023-09-16 16:11:53.729 UTC: 	 Found proxy file /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy
+DEBUG 2023-09-16 16:11:53.729 UTC: 	 Making sure it has proper VOMS extension
+DEBUG 2023-09-16 16:11:53.729 UTC: 	 Executing command :
+ voms-proxy-info --vo --file /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy
+DEBUG 2023-09-16 16:11:54.135 UTC: 	 output : cms
+
+ error: 
+ retcode : 0
+DEBUG 2023-09-16 16:11:54.135 UTC: 	 Getting proxy life time left
+DEBUG 2023-09-16 16:11:54.135 UTC: 	 Executing command :
+ voms-proxy-info --actimeleft --timeleft --file /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy
+DEBUG 2023-09-16 16:11:54.547 UTC: 	 output : 690163
+690163
+
+ error: 
+ retcode : 0
+DEBUG 2023-09-16 16:11:54.547 UTC: 	 Proxy valid for 191:42:43 hours
+DEBUG 2023-09-16 16:11:54.561 UTC: 	 Encoded data for curl request: subresource=delegatedn
+DEBUG 2023-09-16 16:11:54.561 UTC: 	 Executing command :
+ curl -v -X GET -H "User-Agent: CRABClient/v3.230612" -H "Accept: */*" --data @/tmp/crab_curlData33uo4551 --cert "/afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy" --key "/afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy" --capath "/etc/grid-security/certificates/" "https://cmsweb.cern.ch:8443/crabserver/prod/info?subresource=delegatedn" | tee /dev/stderr 
+DEBUG 2023-09-16 16:11:54.788 UTC: 	 output : {"result": [
+ {"services": ["/DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(01|02|03).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch|/DC=ch/DC=cern/OU=computers/CN=dciangot-tw.cern.ch"]}
+]}
+
+ error:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 188.185.89.194:8443...
+* Connected to cmsweb.cern.ch (188.185.89.194) port 8443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: /etc/grid-security/certificates/
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [104 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [6240 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Request CERT (13):
+{ [13122 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Certificate (11):
+} [6306 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS handshake, CERT verify (15):
+} [264 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: DC=ch; DC=cern; OU=computers; CN=cmsweb.cern.ch
+*  start date: Feb 28 02:56:51 2023 GMT
+*  expire date: Apr  3 02:56:51 2024 GMT
+*  subjectAltName: host "cmsweb.cern.ch" matched cert's "cmsweb.cern.ch"
+*  issuer: DC=ch; DC=cern; CN=CERN Grid Certification Authority
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /crabserver/prod/info?subresource=delegatedn HTTP/1.1
+> Host: cmsweb.cern.ch:8443
+> User-Agent: CRABClient/v3.230612
+> Accept: */*
+> Content-Length: 22
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [22 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Sat, 16 Sep 2023 16:11:54 GMT
+< Server: Apache
+< Content-Type: application/json
+< Content-Length: 216
+< Vary: Accept
+< Cache-Control: max-age=3600
+< X-Rest-Status: 100
+< Etag: "531fb58a933656ea08a7f418b273fdae3c95932a"
+< X-Rest-Time: 185521.126 us
+< CMS-Server-Time: D=191753 t=1694880714593896
+< 
+{ [5 bytes data]
+100   238  100   216  100    22   1042    106 --:--:-- --:--:-- --:--:--  1149
+* Connection #0 to host cmsweb.cern.ch left intact
+{"result": [
+ {"services": ["/DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(01|02|03).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch|/DC=ch/DC=cern/OU=computers/CN=dciangot-tw.cern.ch"]}
+]}
+
+ retcode : 0
+DEBUG 2023-09-16 16:11:54.789 UTC: 	 Registering user credentials on myproxy for /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(01|02|03).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch|/DC=ch/DC=cern/OU=computers/CN=dciangot-tw.cern.ch
+DEBUG 2023-09-16 16:11:54.789 UTC: 	 Executing command :
+ voms-proxy-info --identity --file /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy
+DEBUG 2023-09-16 16:11:55.172 UTC: 	 output : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas
+
+ error: 
+ retcode : 0
+DEBUG 2023-09-16 16:11:55.172 UTC: 	 Getting myproxy life time left for 535121f0d62131288ffdc8ec03efb65b7ff80a5b
+DEBUG 2023-09-16 16:11:55.172 UTC: 	 Executing command :
+ myproxy-info -s myproxy.cern.ch -l 535121f0d62131288ffdc8ec03efb65b7ff80a5b
+DEBUG 2023-09-16 16:11:55.380 UTC: 	 output : username: 535121f0d62131288ffdc8ec03efb65b7ff80a5b
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(01|02|03).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch|/DC=ch/DC=cern/OU=computers/CN=dciangot-tw.cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(01|02|03).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch|/DC=ch/DC=cern/OU=computers/CN=dciangot-tw.cern.ch
+  timeleft: 533:21:01  (22.2 days)
+
+ error: 
+ retcode : 0
+DEBUG 2023-09-16 16:11:55.380 UTC: 	 Myproxy is valid: 1920060
+DEBUG 2023-09-16 16:11:55.380 UTC: 	 Result of myproxy credential check:
+  Credential exists on myproxy: username: 535121f0d62131288ffdc8ec03efb65b7ff80a5b  - validity: 22 days, 5:21:00
+DEBUG 2023-09-16 16:11:55.380 UTC: 	 Command use: tasks
+DEBUG 2023-09-16 16:11:55.380 UTC: 	 Options use: []
+DEBUG 2023-09-16 16:11:55.380 UTC: 	 Encoded data for curl request: subresource=version
+DEBUG 2023-09-16 16:11:55.381 UTC: 	 Executing command :
+ curl -v -X GET -H "User-Agent: CRABClient/v3.230612" -H "Accept: */*" --data @/tmp/crab_curlDatad7lic3_2 --cert "/afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy" --key "/afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy" --capath "/etc/grid-security/certificates/" "https://cmsweb.cern.ch:8443/crabserver/prod/info?subresource=version" | tee /dev/stderr 
+DEBUG 2023-09-16 16:11:55.418 UTC: 	 output : {"result": [
+ ["3.3.19", "3.3.20", "v3", "development", "v3.230913"]
+]}
+
+ error:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 188.185.89.194:8443...
+* Connected to cmsweb.cern.ch (188.185.89.194) port 8443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: /etc/grid-security/certificates/
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [104 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [6240 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Request CERT (13):
+{ [13122 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Certificate (11):
+} [6306 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS handshake, CERT verify (15):
+} [264 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: DC=ch; DC=cern; OU=computers; CN=cmsweb.cern.ch
+*  start date: Feb 28 02:56:51 2023 GMT
+*  expire date: Apr  3 02:56:51 2024 GMT
+*  subjectAltName: host "cmsweb.cern.ch" matched cert's "cmsweb.cern.ch"
+*  issuer: DC=ch; DC=cern; CN=CERN Grid Certification Authority
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /crabserver/prod/info?subresource=version HTTP/1.1
+> Host: cmsweb.cern.ch:8443
+> User-Agent: CRABClient/v3.230612
+> Accept: */*
+> Content-Length: 19
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [19 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Sat, 16 Sep 2023 16:11:55 GMT
+< Server: Apache
+< Content-Type: application/json
+< Content-Length: 72
+< Vary: Accept
+< Cache-Control: max-age=3600
+< X-Rest-Status: 100
+< Etag: "8b965172a387813a8898eb28eff3d7afe41e5f08"
+< X-Rest-Time: 2672.911 us
+< CMS-Server-Time: D=10632 t=1694880715406169
+< 
+{ [5 bytes data]
+100    91  100    72  100    19   2927    772 --:--:-- --:--:-- --:--:--  3791
+* Connection #0 to host cmsweb.cern.ch left intact
+{"result": [
+ ["3.3.19", "3.3.20", "v3", "development", "v3.230913"]
+]}
+
+ retcode : 0
+DEBUG 2023-09-16 16:11:55.419 UTC: 	 CRABClient version: v3.230612
+DEBUG 2023-09-16 16:11:55.419 UTC: 	 Instance is prod
+DEBUG 2023-09-16 16:11:55.419 UTC: 	 Server base url is cmsweb.cern.ch
+DEBUG 2023-09-16 16:11:55.419 UTC: 	 Command api workflow
+DEBUG 2023-09-16 16:11:55.419 UTC: 	 Encoded data for curl request: timestamp=2023-08-17
+DEBUG 2023-09-16 16:11:55.420 UTC: 	 Executing command :
+ curl -v -X GET -H "User-Agent: CRABClient/v3.230612" -H "Accept: */*" --data @/tmp/crab_curlDatagwdc5pw8 --cert "/afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy" --key "/afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/data/voms.proxy" --capath "/etc/grid-security/certificates/" "https://cmsweb.cern.ch:8443/crabserver/prod/workflow?timestamp=2023-08-17" | tee /dev/stderr 
+DEBUG 2023-09-16 16:11:55.544 UTC: 	 output : {"desc": {"columns": ["tm_taskname", "tm_task_status", "tw_name", "tm_user_dn"]}, "result": [
+ ["230825_075322:pdebryas_crab_DYJetsToLL_M-50", "UPLOADED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230825_120617:pdebryas_crab_TTToHadronic", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230825_120621:pdebryas_crab_TTToSemiLeptonic", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230825_120613:pdebryas_crab_TTTo2L2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230828_081922:pdebryas_crab_TTTo2L2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230828_082204:pdebryas_crab_TTToSemiLeptonic_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230828_233425:pdebryas_crab_TTToHadronic_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230901_132105:pdebryas_crab_TTToHadronic_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230901_072254:pdebryas_crab_TTTo2L2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230901_073002:pdebryas_crab_TTToSemiLeptonic_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002117:pdebryas_crab_WZTo1L1Nu2Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002420:pdebryas_crab_HNL_tau_M-900", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002435:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002545:pdebryas_crab_WJetsToLNu_HT-400To600", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002559:pdebryas_crab_WJetsToLNu_HT-2500ToInf", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002136:pdebryas_crab_ZZTo2Q2L", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002221:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002225:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002251:pdebryas_crab_GluGluHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002047:pdebryas_crab_Tau_2017D", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002051:pdebryas_crab_Tau_2017E", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002055:pdebryas_crab_Tau_2017F", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002213:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002217:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002233:pdebryas_crab_EWKWMinus2Jets_WToLNu_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002409:pdebryas_crab_HNL_tau_M-600", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002416:pdebryas_crab_HNL_tau_M-800", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002522:pdebryas_crab_W2JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002530:pdebryas_crab_W4JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_091625:pdebryas_crab_HNL_tau_M-75_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002541:pdebryas_crab_WJetsToLNu_HT-200To400", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_081635:pdebryas_crab_HNL_tau_M-150_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002145:pdebryas_crab_ZZTo4L", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002405:pdebryas_crab_HNL_tau_M-500", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002141:pdebryas_crab_ZZTo2Q2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001945:pdebryas_crab_SingleElectron_Run2017B", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002006:pdebryas_crab_SingleMuon_2017B", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002125:pdebryas_crab_WZTo3LNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002149:pdebryas_crab_ZZTo4Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002302:pdebryas_crab_HNL_tau_M-20", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002306:pdebryas_crab_HNL_tau_M-30", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002309:pdebryas_crab_HNL_tau_M-40", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002317:pdebryas_crab_HNL_tau_M-60", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002354:pdebryas_crab_HNL_tau_M-350", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002320:pdebryas_crab_HNL_tau_M-70", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002413:pdebryas_crab_HNL_tau_M-700", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002428:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002027:pdebryas_crab_SingleMuon_2017D", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002240:pdebryas_crab_EWKZ2Jets_ZToLL_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002313:pdebryas_crab_HNL_tau_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002449:pdebryas_crab_WZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002504:pdebryas_crab_TTWZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002515:pdebryas_crab_WJetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002153:pdebryas_crab_DYJetsToLL_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002236:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002244:pdebryas_crab_ttHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002526:pdebryas_crab_W3JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002247:pdebryas_crab_ZHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002534:pdebryas_crab_WJetsToLNu_HT-70To100", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002548:pdebryas_crab_WJetsToLNu_HT-600To800", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002106:pdebryas_crab_WWTo2L2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002121:pdebryas_crab_WZTo2Q2L", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002229:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002327:pdebryas_crab_HNL_tau_M-85", "KILLED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002507:pdebryas_crab_TTZToLLNuNu_M-10", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002022:pdebryas_crab_SingleMuon_2017C", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002038:pdebryas_crab_Tau_2017B", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002042:pdebryas_crab_Tau_2017C", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002113:pdebryas_crab_WZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002200:pdebryas_crab_DYJetsToLL_1J", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002342:pdebryas_crab_HNL_tau_M-200", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002346:pdebryas_crab_HNL_tau_M-250", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001949:pdebryas_crab_SingleElectron_Run2017C", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001953:pdebryas_crab_SingleElectron_Run2017D", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001957:pdebryas_crab_SingleElectron_Run2017E", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002059:pdebryas_crab_WW", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002102:pdebryas_crab_WWTo1L1Nu2Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002110:pdebryas_crab_WWTo4Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002132:pdebryas_crab_ZZTo2L2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002209:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002339:pdebryas_crab_HNL_tau_M-150", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002349:pdebryas_crab_HNL_tau_M-300", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002424:pdebryas_crab_HNL_tau_M-1000", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002431:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002438:pdebryas_crab_ST_tW_top_5f_inclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002456:pdebryas_crab_TTWJetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_051915:pdebryas_crab_WWW_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002442:pdebryas_crab_WWW", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002511:pdebryas_crab_TTZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002556:pdebryas_crab_WJetsToLNu_HT-1200To2500", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002031:pdebryas_crab_SingleMuon_2017E", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002035:pdebryas_crab_SingleMuon_2017F", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002129:pdebryas_crab_ZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002204:pdebryas_crab_DYJetsToLL_2J", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002324:pdebryas_crab_HNL_tau_M-75", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002331:pdebryas_crab_HNL_tau_M-100", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002402:pdebryas_crab_HNL_tau_M-450", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002519:pdebryas_crab_W1JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002538:pdebryas_crab_WJetsToLNu_HT-100To200", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002552:pdebryas_crab_WJetsToLNu_HT-800To1200", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002335:pdebryas_crab_HNL_tau_M-125", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002357:pdebryas_crab_HNL_tau_M-400", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002453:pdebryas_crab_ZZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002255:pdebryas_crab_WminusHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002259:pdebryas_crab_WplusHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002446:pdebryas_crab_WWZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002500:pdebryas_crab_TTWW", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002001:pdebryas_crab_SingleElectron_Run2017F", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002156:pdebryas_crab_DYJetsToLL_0J", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091910:pdebryas_crab_ST_tW_top_5f_inclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225016:pdebryas_crab_SingleMuon_2017C_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070718:pdebryas_crab_TTWJetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070744:pdebryas_crab_W2JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165922:pdebryas_crab_ST_tW_top_5f_inclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_010837:pdebryas_crab_WminusHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_020732:pdebryas_crab_ZZTo2Q2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225844:pdebryas_crab_WplusHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091801:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_111546:pdebryas_crab_ttHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_005310:pdebryas_crab_Tau_2017D_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021627:pdebryas_crab_WminusHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_051843:pdebryas_crab_HNL_tau_M-85_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_051922:pdebryas_crab_W4JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_101816:pdebryas_crab_WJetsToLNu_HT-800To1200_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_061913:pdebryas_crab_WJetsToLNu_HT-70To100_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_050807:pdebryas_crab_W1JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_060608:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165910:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_235607:pdebryas_crab_WJetsToLNu_HT-600To800_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_061708:pdebryas_crab_WZTo2Q2L_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213451:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_010819:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021401:pdebryas_crab_WZ_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021530:pdebryas_crab_EWKWMinus2Jets_WToLNu_M-50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021710:pdebryas_crab_TTWZ_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_050730:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_111507:pdebryas_crab_HNL_tau_M-70_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225919:pdebryas_crab_TTWZ_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021803:pdebryas_crab_WJetsToLNu_HT-600To800_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091711:pdebryas_crab_ZZTo2Q2L_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111033:pdebryas_crab_WWTo1L1Nu2Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111408:pdebryas_crab_WJetsToLNu_HT-70To100_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_050559:pdebryas_crab_WWTo2L2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_110855:pdebryas_crab_SingleElectron_Run2017C_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111250:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_081646:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_213927:pdebryas_crab_SingleElectron_Run2017B_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_215637:pdebryas_crab_SingleElectron_Run2017E_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091856:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225127:pdebryas_crab_Tau_2017D_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225549:pdebryas_crab_DYJetsToLL_M-50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225755:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213144:pdebryas_crab_Tau_2017B_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213541:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165749:pdebryas_crab_ZZTo2Q2L_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213528:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_072957:pdebryas_crab_SingleElectron_Run2017C_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_023557:pdebryas_crab_SingleElectron_Run2017F_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_221521:pdebryas_crab_SingleMuon_2017E_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215319:pdebryas_crab_HNL_tau_M-20_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_081803:pdebryas_crab_WJetsToLNu_HT-200To400_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_224935:pdebryas_crab_SingleMuon_2017B_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225207:pdebryas_crab_WWTo4Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_000834:pdebryas_crab_Tau_2017F_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_101519:pdebryas_crab_WWTo2L2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_074349:pdebryas_crab_Tau_2017B_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_074628:pdebryas_crab_GluGluHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091619:pdebryas_crab_WZTo3LNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230910_030430:pdebryas_crab_ZZTo4L_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230910_030710:pdebryas_crab_DYJetsToLL_2J_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215442:pdebryas_crab_WJetsToLNu_HT-2500ToInf_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_042139:pdebryas_crab_SingleMuon_2017D_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_042222:pdebryas_crab_WZTo1L1Nu2Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021703:pdebryas_crab_TTWJetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_074549:pdebryas_crab_DYJetsToLL_1J_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213322:pdebryas_crab_DYJetsToLL_1J_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021334:pdebryas_crab_Tau_2017F_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_214747:pdebryas_crab_SingleElectron_Run2017D_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_051834:pdebryas_crab_WplusHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070511:pdebryas_crab_SingleElectron_Run2017F_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070540:pdebryas_crab_SingleMuon_2017D_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_101553:pdebryas_crab_ZZTo2Q2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230910_030622:pdebryas_crab_DYJetsToLL_M-50_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_111653:pdebryas_crab_WJetsToLNu_HT-400To600_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021550:pdebryas_crab_ZHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215335:pdebryas_crab_HNL_tau_M-100_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225105:pdebryas_crab_SingleMuon_2017E_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225341:pdebryas_crab_ZZTo2L2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225627:pdebryas_crab_DYJetsToLL_0J_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111318:pdebryas_crab_GluGluHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111432:pdebryas_crab_WJetsToLNu_HT-100To200_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225807:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225905:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_230036:pdebryas_crab_WJetsToLNu_HT-1200To2500_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215357:pdebryas_crab_TTWW_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021455:pdebryas_crab_ZZTo4Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_214050:pdebryas_crab_W3JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_061842:pdebryas_crab_TTZToLLNuNu_M-10_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_170101:pdebryas_crab_WJetsToLNu_HT-400To600_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_031122:pdebryas_crab_W4JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_000849:pdebryas_crab_WW_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_031018:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_005031:pdebryas_crab_Tau_2017C_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225954:pdebryas_crab_WJetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021416:pdebryas_crab_ZZ_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021440:pdebryas_crab_ZZTo2L2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165701:pdebryas_crab_Tau_2017E_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_170051:pdebryas_crab_WJetsToLNu_HT-200To400_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_040812:pdebryas_crab_TTZToLLNuNu_M-10_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225309:pdebryas_crab_WZTo2Q2L_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225711:pdebryas_crab_DYJetsToLL_2J_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021345:pdebryas_crab_WW_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021651:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021752:pdebryas_crab_WJetsToLNu_HT-100To200_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_110954:pdebryas_crab_Tau_2017C_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132635:pdebryas_crab_WJetsToLNu_HT-800To1200_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132240:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130602:pdebryas_crab_WWTo1L1Nu2Q_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124543:pdebryas_crab_SingleMuon_2017C_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130412:pdebryas_crab_SingleMuon_2017F_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132517:pdebryas_crab_W3JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130632:pdebryas_crab_WWTo4Q_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132412:pdebryas_crab_W1JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132645:pdebryas_crab_WJetsToLNu_HT-1200To2500_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_131653:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132004:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132340:pdebryas_crab_WJetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124253:pdebryas_crab_SingleElectron_Run2017D_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124336:pdebryas_crab_SingleElectron_Run2017E_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130815:pdebryas_crab_ZZTo4L_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124003:pdebryas_crab_SingleElectron_Run2017B_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124430:pdebryas_crab_SingleMuon_2017B_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230913_093616:pdebryas_crab_SingleMuon_2017F_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130528:pdebryas_crab_Tau_2017E_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_131323:pdebryas_crab_DYJetsToLL_0J_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_131848:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132056:pdebryas_crab_ttHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132428:pdebryas_crab_W2JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230916_155610:pdebryas_crab_SingleMuon_2017D_GT36", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230916_155615:pdebryas_crab_SingleMuon_2017F_GT36", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+]}
+
+ error:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 188.185.89.194:8443...
+* Connected to cmsweb.cern.ch (188.185.89.194) port 8443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: /etc/grid-security/certificates/
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [104 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [6240 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Request CERT (13):
+{ [13122 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Certificate (11):
+} [6306 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS handshake, CERT verify (15):
+} [264 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: DC=ch; DC=cern; OU=computers; CN=cmsweb.cern.ch
+*  start date: Feb 28 02:56:51 2023 GMT
+*  expire date: Apr  3 02:56:51 2024 GMT
+*  subjectAltName: host "cmsweb.cern.ch" matched cert's "cmsweb.cern.ch"
+*  issuer: DC=ch; DC=cern; CN=CERN Grid Certification Authority
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /crabserver/prod/workflow?timestamp=2023-08-17 HTTP/1.1
+> Host: cmsweb.cern.ch:8443
+> User-Agent: CRABClient/v3.230612
+> Accept: */*
+> Content-Length: 20
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [20 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Sat, 16 Sep 2023 16:11:55 GMT
+< Server: Apache
+< Content-Type: application/json
+< Content-Length: 40906
+< Vary: Accept
+< Cache-Control: max-age=3600
+< X-Rest-Status: 100
+< Etag: "0dd22abd3d932d1d518d1e2790b927d7e0a82959"
+< X-Rest-Time: 82120.419 us
+< CMS-Server-Time: D=89555 t=1694880715451207
+< 
+{ [5 bytes data]
+{"desc": {"columns": ["tm_taskname", "tm_task_status", "tw_name", "tm_user_dn"]}, "result": [
+ ["230825_075322:pdebryas_crab_DYJetsToLL_M-50", "UPLOADED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230825_120617:pdebryas_crab_TTToHadronic", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230825_120621:pdebryas_crab_TTToSemiLeptonic", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230825_120613:pdebryas_crab_TTTo2L2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230828_081922:pdebryas_crab_TTTo2L2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230828_082204:pdebryas_crab_TTToSemiLeptonic_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230828_233425:pdebryas_crab_TTToHadronic_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230901_132105:pdebryas_crab_TTToHadronic_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230901_072254:pdebryas_crab_TTTo2L2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230901_073002:pdebryas_crab_TTToSemiLeptonic_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002117:pdebryas_crab_WZTo1L1Nu2Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002420:pdebryas_crab_HNL_tau_M-900", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002435:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002545:pdebryas_crab_WJetsToLNu_HT-400To600", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002559:pdebryas_crab_WJetsToLNu_HT-2500ToInf", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002136:pdebryas_crab_ZZTo2Q2L", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002221:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002225:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002251:pdebryas_crab_GluGluHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002047:pdebryas_crab_Tau_2017D", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002051:pdebryas_crab_Tau_2017E", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002055:pdebryas_crab_Tau_2017F", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002213:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002217:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002233:pdebryas_crab_EWKWMinus2Jets_WToLNu_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002409:pdebryas_crab_HNL_tau_M-600", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002416:pdebryas_crab_HNL_tau_M-800", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002522:pdebryas_crab_W2JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002530:pdebryas_crab_W4JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_091625:pdebryas_crab_HNL_tau_M-75_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002541:pdebryas_crab_WJetsToLNu_HT-200To400", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_081635:pdebryas_crab_HNL_tau_M-150_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002145:pdebryas_crab_ZZTo4L", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002405:pdebryas_crab_HNL_tau_M-500", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002141:pdebryas_crab_ZZTo2Q2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001945:pdebryas_crab_SingleElectron_Run2017B", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002006:pdebryas_crab_SingleMuon_2017B", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002125:pdebryas_crab_WZTo3LNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002149:pdebryas_crab_ZZTo4Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002302:pdebryas_crab_HNL_tau_M-20", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002306:pdebryas_crab_HNL_tau_M-30", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002309:pdebryas_crab_HNL_tau_M-40", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002317:pdebryas_crab_HNL_tau_M-60", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002354:pdebryas_crab_HNL_tau_M-350", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002320:pdebryas_crab_HNL_tau_M-70", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002413:pdebryas_crab_HNL_tau_M-700", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002428:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002027:pdebryas_crab_SingleMuon_2017D", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002240:pdebryas_crab_EWKZ2Jets_ZToLL_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002313:pdebryas_crab_HNL_tau_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002449:pdebryas_crab_WZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002504:pdebryas_crab_TTWZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002515:pdebryas_crab_WJetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002153:pdebryas_crab_DYJetsToLL_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002236:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002244:pdebryas_crab_ttHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002526:pdebryas_crab_W3JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002247:pdebryas_crab_ZHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002534:pdebryas_crab_WJetsToLNu_HT-70To100", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002548:pdebryas_crab_WJetsToLNu_HT-600To800", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002106:pdebryas_crab_WWTo2L2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002121:pdebryas_crab_WZTo2Q2L", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002229:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002327:pdebryas_crab_HNL_tau_M-85", "KILLED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002507:pdebryas_crab_TTZToLLNuNu_M-10", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002022:pdebryas_crab_SingleMuon_2017C", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002038:pdebryas_crab_Tau_2017B", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002042:pdebryas_crab_Tau_2017C", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002113:pdebryas_crab_WZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002200:pdebryas_crab_DYJetsToLL_1J", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002342:pdebryas_crab_HNL_tau_M-200", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002346:pdebryas_crab_HNL_tau_M-250", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001949:pdebryas_crab_SingleElectron_Run2017C", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001953:pdebryas_crab_SingleElectron_Run2017D", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_001957:pdebryas_crab_SingleElectron_Run2017E", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002059:pdebryas_crab_WW", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002102:pdebryas_crab_WWTo1L1Nu2Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002110:pdebryas_crab_WWTo4Q", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002132:pdebryas_crab_ZZTo2L2Nu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002209:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002339:pdebryas_crab_HNL_tau_M-150", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002349:pdebryas_crab_HNL_tau_M-300", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002424:pdebryas_crab_HNL_tau_M-1000", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002431:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002438:pdebryas_crab_ST_tW_top_5f_inclusiveDecays", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002456:pdebryas_crab_TTWJetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_051915:pdebryas_crab_WWW_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002442:pdebryas_crab_WWW", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002511:pdebryas_crab_TTZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002556:pdebryas_crab_WJetsToLNu_HT-1200To2500", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002031:pdebryas_crab_SingleMuon_2017E", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002035:pdebryas_crab_SingleMuon_2017F", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002129:pdebryas_crab_ZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002204:pdebryas_crab_DYJetsToLL_2J", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002324:pdebryas_crab_HNL_tau_M-75", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002331:pdebryas_crab_HNL_tau_M-100", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002402:pdebryas_crab_HNL_tau_M-450", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002519:pdebryas_crab_W1JetsToLNu", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002538:pdebryas_crab_WJetsToLNu_HT-100To200", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002552:pdebryas_crab_WJetsToLNu_HT-800To1200", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002335:pdebryas_crab_HNL_tau_M-125", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002357:pdebryas_crab_HNL_tau_M-400", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002453:pdebryas_crab_ZZZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002255:pdebryas_crab_WminusHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002259:pdebryas_crab_WplusHToTauTau", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002446:pdebryas_crab_WWZ", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002500:pdebryas_crab_TTWW", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002001:pdebryas_crab_SingleElectron_Run2017F", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_002156:pdebryas_crab_DYJetsToLL_0J", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091910:pdebryas_crab_ST_tW_top_5f_inclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225016:pdebryas_crab_SingleMuon_2017C_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070718:pdebryas_crab_TTWJetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070744:pdebryas_crab_W2JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165922:pdebryas_crab_ST_tW_top_5f_inclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_010837:pdebryas_crab_WminusHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_020732:pdebryas_crab_ZZTo2Q2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225844:pdebryas_crab_WplusHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091801:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_111546:pdebryas_crab_ttHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_005310:pdebryas_crab_Tau_2017D_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021627:pdebryas_crab_WminusHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_051843:pdebryas_crab_HNL_tau_M-85_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_051922:pdebryas_crab_W4JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_101816:pdebryas_crab_WJetsToLNu_HT-800To1200_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_061913:pdebryas_crab_WJetsToLNu_HT-70To100_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_050807:pdebryas_crab_W1JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_060608:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165910:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_235607:pdebryas_crab_WJetsToLNu_HT-600To800_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_061708:pdebryas_crab_WZTo2Q2L_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213451:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_010819:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021401:pdebryas_crab_WZ_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021530:pdebryas_crab_EWKWMinus2Jets_WToLNu_M-50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021710:pdebryas_crab_TTWZ_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_050730:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_111507:pdebryas_crab_HNL_tau_M-70_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225919:pdebryas_crab_TTWZ_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021803:pdebryas_crab_WJetsToLNu_HT-600To800_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091711:pdebryas_crab_ZZTo2Q2L_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111033:pdebryas_crab_WWTo1L1Nu2Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111408:pdebryas_crab_WJetsToLNu_HT-70To100_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_050559:pdebryas_crab_WWTo2L2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_110855:pdebryas_crab_SingleElectron_Run2017C_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111250:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_081646:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_213927:pdebryas_crab_SingleElectron_Run2017B_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_215637:pdebryas_crab_SingleElectron_Run2017E_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091856:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225127:pdebryas_crab_Tau_2017D_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225549:pdebryas_crab_DYJetsToLL_M-50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225755:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213144:pdebryas_crab_Tau_2017B_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213541:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165749:pdebryas_crab_ZZTo2Q2L_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213528:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_072957:pdebryas_crab_SingleElectron_Run2017C_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_023557:pdebryas_crab_SingleElectron_Run2017F_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_221521:pdebryas_crab_SingleMuon_2017E_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215319:pdebryas_crab_HNL_tau_M-20_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_081803:pdebryas_crab_WJetsToLNu_HT-200To400_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_224935:pdebryas_crab_SingleMuon_2017B_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225207:pdebryas_crab_WWTo4Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_000834:pdebryas_crab_Tau_2017F_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_101519:pdebryas_crab_WWTo2L2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_074349:pdebryas_crab_Tau_2017B_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_074628:pdebryas_crab_GluGluHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_091619:pdebryas_crab_WZTo3LNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230910_030430:pdebryas_crab_ZZTo4L_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230910_030710:pdebryas_crab_DYJetsToLL_2J_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215442:pdebryas_crab_WJetsToLNu_HT-2500ToInf_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_042139:pdebryas_crab_SingleMuon_2017D_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_042222:pdebryas_crab_WZTo1L1Nu2Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021703:pdebryas_crab_TTWJetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_074549:pdebryas_crab_DYJetsToLL_1J_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_213322:pdebryas_crab_DYJetsToLL_1J_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021334:pdebryas_crab_Tau_2017F_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_214747:pdebryas_crab_SingleElectron_Run2017D_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_051834:pdebryas_crab_WplusHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070511:pdebryas_crab_SingleElectron_Run2017F_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_070540:pdebryas_crab_SingleMuon_2017D_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_101553:pdebryas_crab_ZZTo2Q2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230910_030622:pdebryas_crab_DYJetsToLL_M-50_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_111653:pdebryas_crab_WJetsToLNu_HT-400To600_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021550:pdebryas_crab_ZHToTauTau_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215335:pdebryas_crab_HNL_tau_M-100_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225105:pdebryas_crab_SingleMuon_2017E_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225341:pdebryas_crab_ZZTo2L2Nu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225627:pdebryas_crab_DYJetsToLL_0J_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111318:pdebryas_crab_GluGluHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_111432:pdebryas_crab_WJetsToLNu_HT-100To200_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225807:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225905:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_230036:pdebryas_crab_WJetsToLNu_HT-1200To2500_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230907_215357:pdebryas_crab_TTWW_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021455:pdebryas_crab_ZZTo4Q_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_214050:pdebryas_crab_W3JetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_061842:pdebryas_crab_TTZToLLNuNu_M-10_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_170101:pdebryas_crab_WJetsToLNu_HT-400To600_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_031122:pdebryas_crab_W4JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_000849:pdebryas_crab_WW_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_031018:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_005031:pdebryas_crab_Tau_2017C_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225954:pdebryas_crab_WJetsToLNu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021416:pdebryas_crab_ZZ_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021440:pdebryas_crab_ZZTo2L2Nu_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_165701:pdebryas_crab_Tau_2017E_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_170051:pdebryas_crab_WJetsToLNu_HT-200To400_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_040812:pdebryas_crab_TTZToLLNuNu_M-10_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225309:pdebryas_crab_WZTo2Q2L_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_225711:pdebryas_crab_DYJetsToLL_2J_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021345:pdebryas_crab_WW_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021651:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230908_021752:pdebryas_crab_WJetsToLNu_HT-100To200_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230909_110954:pdebryas_crab_Tau_2017C_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132635:pdebryas_crab_WJetsToLNu_HT-800To1200_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132240:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Pa100 40926  100 40906  100    20   383k    191 --:--:-- --:--:-- --:--:--  384k
+* Connection #0 to host cmsweb.cern.ch left intact
+ul de Bryas"]
+,["230911_130602:pdebryas_crab_WWTo1L1Nu2Q_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124543:pdebryas_crab_SingleMuon_2017C_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130412:pdebryas_crab_SingleMuon_2017F_recovery_1", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132517:pdebryas_crab_W3JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130632:pdebryas_crab_WWTo4Q_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132412:pdebryas_crab_W1JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132645:pdebryas_crab_WJetsToLNu_HT-1200To2500_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_131653:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132004:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132340:pdebryas_crab_WJetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124253:pdebryas_crab_SingleElectron_Run2017D_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124336:pdebryas_crab_SingleElectron_Run2017E_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130815:pdebryas_crab_ZZTo4L_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124003:pdebryas_crab_SingleElectron_Run2017B_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_124430:pdebryas_crab_SingleMuon_2017B_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230913_093616:pdebryas_crab_SingleMuon_2017F_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_130528:pdebryas_crab_Tau_2017E_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_131323:pdebryas_crab_DYJetsToLL_0J_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_131848:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132056:pdebryas_crab_ttHToTauTau_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230911_132428:pdebryas_crab_W2JetsToLNu_recovery_2", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230916_155610:pdebryas_crab_SingleMuon_2017D_GT36", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+,["230916_155615:pdebryas_crab_SingleMuon_2017F_GT36", "SUBMITTED", "crab-prod-tw01", "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=pdebryas/CN=843032/CN=Paul de Bryas"]
+]}
+
+ retcode : 0
+INFO 2023-09-16 16:11:55.545 UTC: 	 
+List of tasks from 2023-08-17 until 2023-09-16
+INFO 2023-09-16 16:11:55.545 UTC: 	 Beware that STATUS here does not include information from grid jobs
+INFO 2023-09-16 16:11:55.545 UTC: 	 ================================================================================
+INFO 2023-09-16 16:11:55.545 UTC: 	 NAME								STATUS
+INFO 2023-09-16 16:11:55.545 UTC: 	 ================================================================================
+INFO 2023-09-16 16:11:55.545 UTC: 	 230916_155615:pdebryas_crab_SingleMuon_2017F_GT36
+								SUBMITTED
+INFO 2023-09-16 16:11:55.545 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.545 UTC: 	 230916_155610:pdebryas_crab_SingleMuon_2017D_GT36
+								SUBMITTED
+INFO 2023-09-16 16:11:55.545 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.545 UTC: 	 230913_093616:pdebryas_crab_SingleMuon_2017F_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.545 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.545 UTC: 	 230911_132645:pdebryas_crab_WJetsToLNu_HT-1200To2500_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.545 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.545 UTC: 	 230911_132635:pdebryas_crab_WJetsToLNu_HT-800To1200_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.545 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.545 UTC: 	 230911_132517:pdebryas_crab_W3JetsToLNu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_132428:pdebryas_crab_W2JetsToLNu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_132412:pdebryas_crab_W1JetsToLNu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_132340:pdebryas_crab_WJetsToLNu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_132240:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_132056:pdebryas_crab_ttHToTauTau_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_132004:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_131848:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_131653:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_131323:pdebryas_crab_DYJetsToLL_0J_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_130815:pdebryas_crab_ZZTo4L_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_130632:pdebryas_crab_WWTo4Q_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_130602:pdebryas_crab_WWTo1L1Nu2Q_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_130528:pdebryas_crab_Tau_2017E_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_130412:pdebryas_crab_SingleMuon_2017F_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_124543:pdebryas_crab_SingleMuon_2017C_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_124430:pdebryas_crab_SingleMuon_2017B_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_124336:pdebryas_crab_SingleElectron_Run2017E_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_124253:pdebryas_crab_SingleElectron_Run2017D_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230911_124003:pdebryas_crab_SingleElectron_Run2017B_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230910_030710:pdebryas_crab_DYJetsToLL_2J_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230910_030622:pdebryas_crab_DYJetsToLL_M-50_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.546 UTC: 	 230910_030430:pdebryas_crab_ZZTo4L_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.546 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_235607:pdebryas_crab_WJetsToLNu_HT-600To800_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_214050:pdebryas_crab_W3JetsToLNu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_213541:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_213528:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_213451:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_213322:pdebryas_crab_DYJetsToLL_1J_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_213144:pdebryas_crab_Tau_2017B_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_170101:pdebryas_crab_WJetsToLNu_HT-400To600_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_170051:pdebryas_crab_WJetsToLNu_HT-200To400_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_165922:pdebryas_crab_ST_tW_top_5f_inclusiveDecays_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_165910:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_165749:pdebryas_crab_ZZTo2Q2L_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_165701:pdebryas_crab_Tau_2017E_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_111432:pdebryas_crab_WJetsToLNu_HT-100To200_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_111408:pdebryas_crab_WJetsToLNu_HT-70To100_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_111318:pdebryas_crab_GluGluHToTauTau_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_111250:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_111033:pdebryas_crab_WWTo1L1Nu2Q_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_110954:pdebryas_crab_Tau_2017C_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_110855:pdebryas_crab_SingleElectron_Run2017C_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.547 UTC: 	 230909_070744:pdebryas_crab_W2JetsToLNu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.547 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_070718:pdebryas_crab_TTWJetsToLNu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_070540:pdebryas_crab_SingleMuon_2017D_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_070511:pdebryas_crab_SingleElectron_Run2017F_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_060608:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_050807:pdebryas_crab_W1JetsToLNu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_050730:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_050559:pdebryas_crab_WWTo2L2Nu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_040812:pdebryas_crab_TTZToLLNuNu_M-10_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_031122:pdebryas_crab_W4JetsToLNu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_031018:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_020732:pdebryas_crab_ZZTo2Q2Nu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_010837:pdebryas_crab_WminusHToTauTau_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_010819:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_000849:pdebryas_crab_WW_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230909_000834:pdebryas_crab_Tau_2017F_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230908_230036:pdebryas_crab_WJetsToLNu_HT-1200To2500_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230908_225954:pdebryas_crab_WJetsToLNu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230908_225919:pdebryas_crab_TTWZ_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230908_225905:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230908_225844:pdebryas_crab_WplusHToTauTau_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230908_225807:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.548 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.548 UTC: 	 230908_225755:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225711:pdebryas_crab_DYJetsToLL_2J_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225627:pdebryas_crab_DYJetsToLL_0J_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225549:pdebryas_crab_DYJetsToLL_M-50_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225341:pdebryas_crab_ZZTo2L2Nu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225309:pdebryas_crab_WZTo2Q2L_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225207:pdebryas_crab_WWTo4Q_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225127:pdebryas_crab_Tau_2017D_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225105:pdebryas_crab_SingleMuon_2017E_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_225016:pdebryas_crab_SingleMuon_2017C_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_224935:pdebryas_crab_SingleMuon_2017B_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_215637:pdebryas_crab_SingleElectron_Run2017E_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_214747:pdebryas_crab_SingleElectron_Run2017D_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_213927:pdebryas_crab_SingleElectron_Run2017B_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_111653:pdebryas_crab_WJetsToLNu_HT-400To600_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_111546:pdebryas_crab_ttHToTauTau_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_101816:pdebryas_crab_WJetsToLNu_HT-800To1200_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_101553:pdebryas_crab_ZZTo2Q2Nu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_101519:pdebryas_crab_WWTo2L2Nu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_091910:pdebryas_crab_ST_tW_top_5f_inclusiveDecays_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_091856:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.549 UTC: 	 230908_091801:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.549 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_091711:pdebryas_crab_ZZTo2Q2L_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_091619:pdebryas_crab_WZTo3LNu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_081803:pdebryas_crab_WJetsToLNu_HT-200To400_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_081646:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_074628:pdebryas_crab_GluGluHToTauTau_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_074549:pdebryas_crab_DYJetsToLL_1J_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_074349:pdebryas_crab_Tau_2017B_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_072957:pdebryas_crab_SingleElectron_Run2017C_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_061913:pdebryas_crab_WJetsToLNu_HT-70To100_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_061842:pdebryas_crab_TTZToLLNuNu_M-10_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_061708:pdebryas_crab_WZTo2Q2L_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_051922:pdebryas_crab_W4JetsToLNu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_051843:pdebryas_crab_HNL_tau_M-85_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_051834:pdebryas_crab_WplusHToTauTau_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_042222:pdebryas_crab_WZTo1L1Nu2Q_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_042139:pdebryas_crab_SingleMuon_2017D_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_023557:pdebryas_crab_SingleElectron_Run2017F_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_021803:pdebryas_crab_WJetsToLNu_HT-600To800_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_021752:pdebryas_crab_WJetsToLNu_HT-100To200_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_021710:pdebryas_crab_TTWZ_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_021703:pdebryas_crab_TTWJetsToLNu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.550 UTC: 	 230908_021651:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.550 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021627:pdebryas_crab_WminusHToTauTau_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021550:pdebryas_crab_ZHToTauTau_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021530:pdebryas_crab_EWKWMinus2Jets_WToLNu_M-50_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021455:pdebryas_crab_ZZTo4Q_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021440:pdebryas_crab_ZZTo2L2Nu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021416:pdebryas_crab_ZZ_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021401:pdebryas_crab_WZ_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021345:pdebryas_crab_WW_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_021334:pdebryas_crab_Tau_2017F_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_005310:pdebryas_crab_Tau_2017D_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230908_005031:pdebryas_crab_Tau_2017C_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_221521:pdebryas_crab_SingleMuon_2017E_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_215442:pdebryas_crab_WJetsToLNu_HT-2500ToInf_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_215357:pdebryas_crab_TTWW_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_215335:pdebryas_crab_HNL_tau_M-100_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_215319:pdebryas_crab_HNL_tau_M-20_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_111507:pdebryas_crab_HNL_tau_M-70_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_091625:pdebryas_crab_HNL_tau_M-75_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_081635:pdebryas_crab_HNL_tau_M-150_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_051915:pdebryas_crab_WWW_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_002559:pdebryas_crab_WJetsToLNu_HT-2500ToInf
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.551 UTC: 	 230907_002556:pdebryas_crab_WJetsToLNu_HT-1200To2500
+								SUBMITTED
+INFO 2023-09-16 16:11:55.551 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002552:pdebryas_crab_WJetsToLNu_HT-800To1200
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002548:pdebryas_crab_WJetsToLNu_HT-600To800
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002545:pdebryas_crab_WJetsToLNu_HT-400To600
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002541:pdebryas_crab_WJetsToLNu_HT-200To400
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002538:pdebryas_crab_WJetsToLNu_HT-100To200
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002534:pdebryas_crab_WJetsToLNu_HT-70To100
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002530:pdebryas_crab_W4JetsToLNu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002526:pdebryas_crab_W3JetsToLNu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002522:pdebryas_crab_W2JetsToLNu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002519:pdebryas_crab_W1JetsToLNu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002515:pdebryas_crab_WJetsToLNu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002511:pdebryas_crab_TTZZ
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002507:pdebryas_crab_TTZToLLNuNu_M-10
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002504:pdebryas_crab_TTWZ
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002500:pdebryas_crab_TTWW
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002456:pdebryas_crab_TTWJetsToLNu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002453:pdebryas_crab_ZZZ
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002449:pdebryas_crab_WZZ
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002446:pdebryas_crab_WWZ
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002442:pdebryas_crab_WWW
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.552 UTC: 	 230907_002438:pdebryas_crab_ST_tW_top_5f_inclusiveDecays
+								SUBMITTED
+INFO 2023-09-16 16:11:55.552 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002435:pdebryas_crab_ST_tW_antitop_5f_inclusiveDecays
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002431:pdebryas_crab_ST_t-channel_top_4f_InclusiveDecays
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002428:pdebryas_crab_ST_t-channel_antitop_4f_InclusiveDecays
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002424:pdebryas_crab_HNL_tau_M-1000
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002420:pdebryas_crab_HNL_tau_M-900
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002416:pdebryas_crab_HNL_tau_M-800
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002413:pdebryas_crab_HNL_tau_M-700
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002409:pdebryas_crab_HNL_tau_M-600
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002405:pdebryas_crab_HNL_tau_M-500
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002402:pdebryas_crab_HNL_tau_M-450
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002357:pdebryas_crab_HNL_tau_M-400
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002354:pdebryas_crab_HNL_tau_M-350
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002349:pdebryas_crab_HNL_tau_M-300
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002346:pdebryas_crab_HNL_tau_M-250
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002342:pdebryas_crab_HNL_tau_M-200
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002339:pdebryas_crab_HNL_tau_M-150
+								SUBMITTED
+INFO 2023-09-16 16:11:55.553 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.553 UTC: 	 230907_002335:pdebryas_crab_HNL_tau_M-125
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002331:pdebryas_crab_HNL_tau_M-100
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002327:pdebryas_crab_HNL_tau_M-85
+								KILLED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002324:pdebryas_crab_HNL_tau_M-75
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002320:pdebryas_crab_HNL_tau_M-70
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002317:pdebryas_crab_HNL_tau_M-60
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002313:pdebryas_crab_HNL_tau_M-50
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002309:pdebryas_crab_HNL_tau_M-40
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002306:pdebryas_crab_HNL_tau_M-30
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002302:pdebryas_crab_HNL_tau_M-20
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002259:pdebryas_crab_WplusHToTauTau
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002255:pdebryas_crab_WminusHToTauTau
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002251:pdebryas_crab_GluGluHToTauTau
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002247:pdebryas_crab_ZHToTauTau
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002244:pdebryas_crab_ttHToTauTau
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002240:pdebryas_crab_EWKZ2Jets_ZToLL_M-50
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002236:pdebryas_crab_EWKWPlus2Jets_WToLNu_M-50
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002233:pdebryas_crab_EWKWMinus2Jets_WToLNu_M-50
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002229:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-650ToInf
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002225:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-400To650
+								SUBMITTED
+INFO 2023-09-16 16:11:55.554 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.554 UTC: 	 230907_002221:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-250To400
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002217:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-100To250
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002213:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-50To100
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002209:pdebryas_crab_DYJetsToLL_LHEFilterPtZ-0To50
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002204:pdebryas_crab_DYJetsToLL_2J
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002200:pdebryas_crab_DYJetsToLL_1J
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002156:pdebryas_crab_DYJetsToLL_0J
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002153:pdebryas_crab_DYJetsToLL_M-50
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002149:pdebryas_crab_ZZTo4Q
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002145:pdebryas_crab_ZZTo4L
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002141:pdebryas_crab_ZZTo2Q2Nu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002136:pdebryas_crab_ZZTo2Q2L
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002132:pdebryas_crab_ZZTo2L2Nu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002129:pdebryas_crab_ZZ
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002125:pdebryas_crab_WZTo3LNu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002121:pdebryas_crab_WZTo2Q2L
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002117:pdebryas_crab_WZTo1L1Nu2Q
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002113:pdebryas_crab_WZ
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002110:pdebryas_crab_WWTo4Q
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002106:pdebryas_crab_WWTo2L2Nu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002102:pdebryas_crab_WWTo1L1Nu2Q
+								SUBMITTED
+INFO 2023-09-16 16:11:55.555 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.555 UTC: 	 230907_002059:pdebryas_crab_WW
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002055:pdebryas_crab_Tau_2017F
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002051:pdebryas_crab_Tau_2017E
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002047:pdebryas_crab_Tau_2017D
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002042:pdebryas_crab_Tau_2017C
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002038:pdebryas_crab_Tau_2017B
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002035:pdebryas_crab_SingleMuon_2017F
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002031:pdebryas_crab_SingleMuon_2017E
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002027:pdebryas_crab_SingleMuon_2017D
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002022:pdebryas_crab_SingleMuon_2017C
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002006:pdebryas_crab_SingleMuon_2017B
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_002001:pdebryas_crab_SingleElectron_Run2017F
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_001957:pdebryas_crab_SingleElectron_Run2017E
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_001953:pdebryas_crab_SingleElectron_Run2017D
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_001949:pdebryas_crab_SingleElectron_Run2017C
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230907_001945:pdebryas_crab_SingleElectron_Run2017B
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230901_132105:pdebryas_crab_TTToHadronic_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230901_073002:pdebryas_crab_TTToSemiLeptonic_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230901_072254:pdebryas_crab_TTTo2L2Nu_recovery_2
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230828_233425:pdebryas_crab_TTToHadronic_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.556 UTC: 	 230828_082204:pdebryas_crab_TTToSemiLeptonic_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.556 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.557 UTC: 	 230828_081922:pdebryas_crab_TTTo2L2Nu_recovery_1
+								SUBMITTED
+INFO 2023-09-16 16:11:55.557 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.557 UTC: 	 230825_120621:pdebryas_crab_TTToSemiLeptonic
+								SUBMITTED
+INFO 2023-09-16 16:11:55.557 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.557 UTC: 	 230825_120617:pdebryas_crab_TTToHadronic
+								SUBMITTED
+INFO 2023-09-16 16:11:55.557 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.557 UTC: 	 230825_120613:pdebryas_crab_TTTo2L2Nu
+								SUBMITTED
+INFO 2023-09-16 16:11:55.557 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.557 UTC: 	 230825_075322:pdebryas_crab_DYJetsToLL_M-50
+								UPLOADED
+INFO 2023-09-16 16:11:55.557 UTC: 	 --------------------------------------------------------------------------------
+INFO 2023-09-16 16:11:55.557 UTC: 	 
+
+INFO 2023-09-16 16:11:55.719 UTC: 	 Log file is /afs/cern.ch/user/p/pdebryas/HNL_analysis/NanoProd_HNL/crab.log
+DEBUG 2024-02-07 13:05:56.835 UTC: 	 CRAB Client version: v3.240110
+DEBUG 2024-02-07 13:05:56.835 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-513.9.1.el8_9.x86_64 #1 SMP Thu Nov 16 10:29:04 EST 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.9 (Ootpa)
+DEBUG 2024-02-07 13:05:56.835 UTC: 	 Executing command: 'submit'
+DEBUG 2024-02-07 13:05:56.883 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
+DEBUG 2024-02-07 14:00:33.958 UTC: 	 CRAB Client version: v3.240110
+DEBUG 2024-02-07 14:00:33.958 UTC: 	 Running on: Linux lxplus800.cern.ch 4.18.0-513.9.1.el8_9.x86_64 #1 SMP Thu Nov 16 10:29:04 EST 2023 x86_64 x86_64 x86_64 GNU/Linux - Red Hat Enterprise Linux 8.9 (Ootpa)
+DEBUG 2024-02-07 14:00:33.958 UTC: 	 Executing command: 'submit'
+DEBUG 2024-02-07 14:00:33.959 UTC: 	 Found CRAB cache file /afs/cern.ch/user/p/pdebryas/.crab3
